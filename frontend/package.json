@@ -1,0 +1,25 @@
+{
+    "name": "geoview",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "chart.js": "^4.4.7",
+        "leaflet": "^1.9.4",
+        "react": "^18.3.1",
+        "react-chartjs-2": "^5.2.0",
+        "react-dom": "^18.3.1",
+        "react-leaflet": "^4.2.1"
+    },
+    "devDependencies": {
+        "vite": "^6.0.0"
+    },
+    "overrides": {
+        "vite": {
+            "rollup": "npm:@rollup/wasm-node@4.68.0"
+        }
+    }
+}
